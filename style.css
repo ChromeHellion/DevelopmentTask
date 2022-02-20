@@ -1,3 +1,18 @@
+
+#room_iframe{
+    border: 0; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    right:0; 
+    bottom:0; 
+    width:100%; 
+    height:100%;
+    min-width: 1024px;
+    min-height: 800px;
+}
+
+
 .sidebar{
     position:absolute;
     left: 10%;
@@ -100,3 +115,76 @@
     background-color: black;
 }
 
+
+#cameraicon{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1106px;
+    top: 23px;
+
+    background: #C4C4C4;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+#cameraicon:hover{
+    
+    opacity: 1;
+    
+    
+}
+
+#icon1{
+    position:absolute;
+    left:7.5px;
+    
+    top:10px;
+}
+
+#circle4{
+    position:absolute;
+    width:5px;
+    height:5px;
+    background-color:rgb(0, 0, 0);
+    top:15px;
+    left:14px;
+    border-radius:50%;
+}
+
+#messageicon{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1156px;
+    top: 23px;
+
+    background: #C4C4C4;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+#messageicon:hover{
+    
+    opacity: 1;
+    
+    
+}
+
+#icon2{
+    position:absolute;
+    left:6px;
+    top:7px;
+}
+
+#bellicon{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 1206px;
+    top: 23px;
+
+    background: #C4C4C4;
+    opacity: 0.8;
+    border-radius: 8px;
+}
