@@ -15,8 +15,8 @@
 
 .sidebar{
     position:absolute;
-    left: 10%;
-    right: -100%;
+    left: -10%;
+    right: 90%;
     top: 0%;
     bottom: 0%;
 
@@ -131,6 +131,7 @@
 #cameraicon:hover{
     
     opacity: 1;
+    cursor: pointer;
     
     
 }
@@ -167,6 +168,7 @@
 #messageicon:hover{
     
     opacity: 1;
+    cursor: pointer;
     
     
 }
@@ -187,4 +189,103 @@
     background: #C4C4C4;
     opacity: 0.8;
     border-radius: 8px;
+}
+
+#bellicon:hover{
+    opacity:1;
+    cursor: pointer;
+}
+
+
+#icon3-1{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+
+#icon3-2{
+    position:absolute;
+    left:14px;
+    top:25px;
+}
+
+#notification{
+    font-size: 11px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    background-color:red;
+    line-height: 15px;
+    border-radius:50%;
+    text-align: center;
+    height: 15px;
+    width: 30px;
+    position:absolute;
+    left:20px;
+}
+
+
+#profile{
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    left: 1263px;
+    top: 21px;
+    
+    
+    background: #C4C4C4;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+#profile:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+#profiletext{
+    font-weight: bold;
+    color:rgb(58, 58, 58);
+    position: absolute;
+    left:35px;
+    top:7px;
+}
+
+#profileicon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 7px;
+    top: 5px;
+    
+    background: gray;
+    border-radius: 50%;
+    
+}
+
+
+#profileface{
+    position: absolute;
+    width: 9.04px;
+    height: 8.48px;
+    left:8px;
+    top: 6px;
+    
+    background: #b3abab;
+    border-radius: 13px;
+    
+}
+
+#profilebody{
+    position: relative;
+    width: 17.69px;
+    height: 15.06px;
+    left: 3.5px;
+    top: 15px;
+    
+    background: #b3abab;
+    border-radius: 18.5px;
+
 }
